@@ -30,5 +30,21 @@ h1{
     align-items: center;
     margin: auto;
     text-align: center;
+    margin-top: 100px;
+}
+#campo_email{
+    width: 400px;
+    height: 40px;
+}
+#btnSubs{
+    width: 100px;
+    height: 45px;
+}
+#post1{
+    border: solid;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 30px;
+    text-align: justify;
 
 }
