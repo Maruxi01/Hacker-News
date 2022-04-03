@@ -6,22 +6,36 @@ header{
     margin-top: -6.5px;
     font-size:20px;
 }
+h1{
+    text-align: center;
+    display: inline;
+    position:static;
+    z-index: 100;
+}
 a{
+    font-size: 25px;
+    margin-top: 10px;
     text-decoration: none;
     color: black;
     
 }
+a#home{
+    margin-left: 1700px;
+    margin-right: 15px;
+    display: flex;
+}
+a#contact{
+    display: flex;
+ 
+}
 a:hover{
+    color: white;
     background-color:#E1E1E1;
 }
 a:visited{
-    background-color: gray;
+    color: gray;
 }
-#home{
-    margin-left: 1350px;
-    margin-bottom: -200px;
-    z-index: 0;
-}
+
 section h1{
     margin-top: 100px;
     text-align: center;
@@ -43,4 +57,7 @@ input{
 }
 .campoMsg *{
     vertical-align: middle;
+}
+nav{
+    display: flex;
 }

@@ -1,32 +1,39 @@
 header{
     border-style: solid;
-    text-align: center;
+    text-align: center; 
     margin-left: -6.5px;
     margin-right:-6.5px;
     margin-top: -6.5px;
     font-size:20px;
-   
+    height: 100px;
 }
 a{
+    font-size: 25px;
+    margin-top: 10px;
     text-decoration: none;
     color: black;
-    
+   
+}
+a#home{
+    margin-left: 1700px;
+    margin-right: 15px;
+    display: flex;
+}
+a#contact{
+    display: flex;
+ 
 }
 a:hover{
+    color: white;
     background-color:#E1E1E1;
 }
 a:visited{
-    background-color: gray;
+    color: gray;
 }
-#home{
-    float: right;
-    position: relative;
-    margin-left: 1350px;
-    margin-bottom: 100px;
-    margin-right: 200px;
-    z-index: 1;
-}
+
 h1{
+    text-align: center;
+    display: inline;
     position:static;
     z-index: 100;
 }
@@ -59,4 +66,7 @@ h3, p{
 footer{
     text-align: center;
     margin-top: 300px;
+}
+nav{
+    display: flex;
 }
